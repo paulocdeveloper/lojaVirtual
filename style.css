@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    font-family: Roboto, sans-serif;
+    font-family: roboto, sans-serif;
     text-align: center;
     height: 100vh;
 }
@@ -116,7 +116,6 @@ article img {
 
 } 
 
-
 #page-container {
     position: relative;
     min-height: 100vh;
@@ -128,19 +127,3 @@ article img {
     width: 100%;
     height: 2.5rem;            
   }
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
- 
