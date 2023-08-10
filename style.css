@@ -56,9 +56,8 @@ article {
 } 
 
 h1 {
-    position: relative;
-    top: 100px;
-    font-size: 100px;
+    margin: 0;
+    font-size: 50px;
     
     text-align: center;
     color: blueviolet;
@@ -92,14 +91,6 @@ h1 {
     margin: 100px 0 0 0;
     clear: right;
   }
-
-article img {
-    float: right;
-    
-    width: 50%;
-    margin: 50px 50px 0 0;
-}
-
 
 @media(max-width: 800px) {
     #home, #about, #contact, #banner {
