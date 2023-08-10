@@ -14,10 +14,8 @@
             
             <div class="headerBar">
                 <a id="logo" href="">Untitled</a>
-                <a id="home" href="">Home</a>
-                <a id="about" href="">About</a>
-                <a id="contact" href="">Contact</a>
-                <a id="cart" href=""><img class="imgBag" src="img/bag.png" alt=""></a>
+                
+                <a id="cart" href=""><img class="imgBag" src="img/cart.png" alt=""></a>
             </div>
             
             
@@ -26,13 +24,13 @@
 
     <section>
         <article>
-            <div>
+            <div id="inicio">
                 <div>
                     <h1>LOREMIPSU IPSUMAL</h1>
 
-                <a class="buttonBanner" href="#content-wrap">
+                    <a class="buttonBanner" href="#content-wrap">
                     Shop now
-                </a>
+                    </a>
                 </div>
 
                 <div>
@@ -41,20 +39,91 @@
             </div>
 
             <div>
-                <div>
-                    Produtos
-                </div>
+                
+                <div class="produtos">
 
-                <div>
-                    <select name="select" id="select">
-                        <option value="valor1">Valor 1</option>
-                        <option value="valor2" selected>Valor 2</option>
-                        <option value="valor3">Valor 3</option>
-                    </select>
+                    <h3 class="produtos-txt">Produtos</h3>
+                    <div class="coluna1">
+                        <div class="produto1">
+
+                        </div>
+
+                        <div class="produto2">
+                            
+                        </div>
+
+                        <div class="produto3">
+                            
+                        </div>
+
+                        <div class="produto4">
+                            
+                        </div>
+                    </div>
+
+                    <div class="coluna2">
+                        <div class="produto1">
+
+                        </div>
+
+                        <div class="produto2">
+                            
+                        </div>
+
+                        <div class="produto3">
+                            
+                        </div>
+
+                        <div class="produto4">
+                    </div>
+                    
                 </div>
             </div>
             
-            
+            <div id="map">
+                <div class="mapa">
+                    <h3>Onde nos encontrar?</h3>
+                    <a href="">Rua cristina oliveira 1206, Agua azul, Guarulhos-SP Brasil</a> <br>
+                    <a href="">paulofrontend@gmail.com</a> <br>
+                    <a href="">+55(11)95113-0928</a>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum,
+                    ipsa quo hic, quaerat, cupiditate saepe atque beatae mollitia neque
+                    vero repellat laboriosam. Maiores illum aut illo exercitationem rep
+                    udiandae quisquam cupiditate.</p>
+                </div>
+
+                <div class="contato-form">
+                    <h3>Envie uma mensagem!</h3>
+                    <div class="formularioContato">
+        
+                        <form action="#" method="post" enctype="multipart/form-data">
+                            <label>
+                                <span><i class="icon icon-user-1"></i> Nome</span>
+                                <input type="text" name="nome" required="">
+                            </label>
+                            
+                            <label>
+                                <span><i class="icon icon-email"></i> E-mail</span>
+                                <input type="text" name="email" class="fade_8S">
+                            </label>
+                            <label>
+                                <span><i class="icon icon-flag"></i> Assunto</span>
+                                <input type="text" name="assunto" required="">
+                            </label>
+                            
+                            <label>
+                                <span><i class="icon icon-comment"></i> Mensagem</span>
+                                 <textarea name="mensagem" rows="3" required=""></textarea> 
+                            </label>
+                           
+                            <input type="hidden" name="acao" value="enviar" />
+                            <button class="btn-envia" title="Enviar"><b class="icon icon-paper-plane-o"> Enviar</b></button>
+                        
+                        </form>
+                    </div>
+                </div>
+               
+            </div>
 
                 
 
@@ -63,18 +132,6 @@
         
     </section>
 
-    <div id="page-container">
-        <div id="content-wrap">
-            
-          
-        </div>
-
-
-
-        <footer id="footer">
-            <p>Developed by Paulo César</p>
-        </footer>
-    </div>
     <script src="index.js"></script>
 </body>
 </html>
