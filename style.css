@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    font-family: roboto, sans-serif;
+    font-family: Roboto, sans-serif;
     text-align: center;
     height: 100vh;
 }
@@ -18,33 +18,80 @@ header {
     font-weight: bold;
     font-size: 30px;
     position: absolute;
-    left: 50px;
-    top: 5px;
+    left: 360px;
+    top: 10px;
+    color: #327AD9;
 }
 
-#about {
-    margin: 0 10px 0 10px;
+#login {
+    position: absolute;
+    right: 650px;
+    top: 7px;
+    color: #ffffff;
+    font-weight: bold;
+
+    height: 40px;
+    width: 100px;
+    background-color: #327AD9;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+#register {
+    position: absolute;
+    right: 530px;
+    top: 11px;
+    color: #327AD9;
+    font-weight: bold;
+    
 }
 
 #cart {
     position: absolute;
-    right: 50px;
-    top: 5px;
+    right: 380px;
+    top: 8px;
+    
 }
 
 .imgBag {
-    width: 80%;
+    width: 35px;
+}
+
+.bola {
+    border-radius: 50%;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    color: #fff;
+    background-color: #327AD9;
+
+    position: absolute;
+    right: 360px;
+    top: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 a {
     font-size: 25px;
     text-decoration: none;
-    color: #000000;
+    color: #0D0D0D;
 }
 
 #inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
 }
+
+
 
 @media(max-width:800px) {
     article {
@@ -60,7 +107,74 @@ h1 {
     font-size: 50px;
     
     text-align: center;
-    color: blueviolet;
+    color: #2C3A40;
+}
+
+h3 {
+    color: #455A64;
+    
+}
+
+#img-produto {
+    width: 80%;
+}
+
+.btn-view {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-add {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 150px;
+    height: 50px;
+    
+    border-radius: 5px;
+    background-color: #b6d0f7;
+    color: #fff;
+
+}
+
+.txt-view, .txt-add {
+    font-size: 20px;
+}
+
+#add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 150px;
+    height: 50px;
+
+    border-radius: 5px;
+    background-color: #327AD9;
+    color: #fff;
+}
+
+.paragraph {
+    color: #696e70;
+    max-width: 600px;
+    line-height: 2em;
+    margin-bottom: 0;
+}
+
+#banner {
+    width: 600px;
 }
 
 #produtos {
@@ -74,23 +188,31 @@ h1 {
 }
 
 .produtos-txt {
-    padding: 15px 0 15px 0;
+    padding: 50px 0 50px 0;
     margin: 0;
     font-weight: bold;
     font-size: 30px;
 }
 
-.coluna1 {
+.coluna1,.coluna2 {
     width: 100%;
-    height: 550px;
-    
-    
+    height: 550px; 
 }
 
-.coluna2 {
-    width: 100%;
-    height: 550px;
-    
+.coluna1, .coluna2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-coluna1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 90%;
+    height: 450px;
+    margin: 0;
 }
 
 .produto1, .produto2, .produto3, .produto4 {
@@ -100,6 +222,7 @@ h1 {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     margin: 0 15px 0 15px;
+    padding: 20px;
 }
 
 #map {
@@ -126,7 +249,7 @@ h1 {
     position: relative;
     top: 60px;
     overflow: hidden;
-    border: 1px solid #8a2be2;
+    border: 1px solid #6ea7f1;
     color: #18181a;
     display: inline-block;
     font-size: 15px;
@@ -134,14 +257,15 @@ h1 {
     padding: 18px 18px 17px;
     text-decoration: none;
     cursor: pointer;
-    background: #fff;
+    background: #327AD9;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+    border-radius: 5px;
 
     font-family: roboto;
     font-size: 20px;
-    color: #8a2be2;
+    color: #ffffff;
   }
 
   .teste {
