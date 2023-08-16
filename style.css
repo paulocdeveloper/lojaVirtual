@@ -4,7 +4,7 @@ body {
     margin: 0;
     font-family: Roboto, sans-serif;
     text-align: center;
-    height: 100vh;
+    height: 100%;
 }
 
 header {
@@ -15,20 +15,20 @@ header {
 }
 
 #logo {
-    font-weight: bold;
-    font-size: 30px;
+    width: 250px;
+    
     position: absolute;
-    left: 360px;
-    top: 10px;
+    left: 250px;
+    top: -100px;
     color: #327AD9;
 }
 
 #login {
     position: absolute;
-    right: 650px;
+    right: 540px;
     top: 7px;
     color: #ffffff;
-    font-weight: bold;
+    font-weight: 400;
 
     height: 40px;
     width: 100px;
@@ -42,16 +42,16 @@ header {
 
 #register {
     position: absolute;
-    right: 530px;
+    right: 440px;
     top: 11px;
     color: #327AD9;
-    font-weight: bold;
+    font-weight: 400;
     
 }
 
 #cart {
     position: absolute;
-    right: 380px;
+    right: 320px;
     top: 8px;
     
 }
@@ -69,7 +69,7 @@ header {
     background-color: #327AD9;
 
     position: absolute;
-    right: 360px;
+    right: 300px;
     top: 4px;
 
     display: flex;
@@ -111,59 +111,104 @@ h1 {
 }
 
 h3 {
-    color: #455A64;
-    
+    color: #327AD9;
+    font-size: 20px;
+}
+
+.mais-vendidos {
+    height: 150vh;
+    background-color: #F4F9FF;
 }
 
 #img-produto {
     width: 80%;
+    margin-top: 10px;
+}
+
+.btn-all {
+    height: 110px;
+    
+
 }
 
 .btn-view {
     width: 100%;
-    height: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 20px;
+    
+    background-color: #EAF1FB;
+    color: #327AD9;
+    
+    border: solid 1px #327AD9;
+}
+
+em {
+    font-size: 20px;
+    color: #327AD9;
+    font-weight: bold;
+}
+
+.btn-add {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #327AD9;
+    font-size: 20px;
+
+    border: solid 1px #327AD9 ;
+    
+}
+
+.all-view {
+    width: 100%;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.btn-add {
+.all-add {
     width: 100%;
-    height: 100px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
 }
 
 #view {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    width: 150px;
-    height: 50px;
     
-    border-radius: 5px;
-    background-color: #b6d0f7;
-    color: #fff;
+
+    width: 100%;
+    height: 100%;
 
 }
 
-.txt-view, .txt-add {
-    font-size: 20px;
+.txt-desc {
+    height: 110px;
 }
+
+
 
 #add {
     display: flex;
     align-items: center;
     justify-content: center;
 
-    width: 150px;
-    height: 50px;
-
-    border-radius: 5px;
-    background-color: #327AD9;
-    color: #fff;
+    width: 100%;
+    height: 100%;
+ 
 }
 
 .paragraph {
@@ -184,7 +229,7 @@ h3 {
 .produtos {
     width: 100%;
     height: 125vh;
-    background-color: #c5c2c26e;
+    background-color: #F4F9FF;
 }
 
 .produtos-txt {
@@ -194,12 +239,9 @@ h3 {
     font-size: 30px;
 }
 
-.coluna1,.coluna2 {
-    width: 100%;
-    height: 550px; 
-}
-
 .coluna1, .coluna2 {
+    width: 100%;
+    height: 550px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -215,14 +257,22 @@ h3 {
     margin: 0;
 }
 
+
 .produto1, .produto2, .produto3, .produto4 {
     display: inline-block;
     width: 250px;
-    height: 500px;
+    height: 450px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     margin: 0 15px 0 15px;
     padding: 20px;
+    border: solid 1px #00000011 ;
+    
+}
+
+.produto1:hover, .produto2:hover, .produto3:hover, .produto4:hover {
+    box-shadow: 0 0 10px #999;
+    
 }
 
 #map {
@@ -237,13 +287,31 @@ h3 {
 .mapa, .contato-form {
     width: 500px;
     height: 500px;
-    background-color: #c5c2c26e;
+    background-color: #F4F9FF;
+    box-shadow: 0px 0px 1px;
     display: inline-block;
     margin: 10px;
     border-radius: 20px;
 }
 
+.content-mapa {
+    text-align: left;
+    margin: 30px;
+}
 
+.content-form {
+    text-align: left;
+    margin: 30px;
+}
+
+textarea {
+    width: 372px;
+    margin-bottom: 20px;
+}
+
+.line1, .line2 {
+    margin-bottom: 20px;
+}
 
 .buttonBanner {
     position: relative;
@@ -291,4 +359,31 @@ h3 {
     min-height: 100vh;
   }
   
- 
+.txt-mapa {
+    font-size: 18px;
+    color: #717272;
+    
+}
+
+.txt-encontrar {
+    margin: 50px 0 120px 0;
+}
+
+.icons {
+    width: 25px;
+    margin-right: 20px;
+}
+
+.all-adress, .all-email, .all-telefone {
+    display: flex;
+    height: 20px;
+    align-items: center;
+}
+
+.all-adress {
+    margin-top:50px ;
+}
+
+.all-email {
+    margin: 20px 0 20px 0;
+}
