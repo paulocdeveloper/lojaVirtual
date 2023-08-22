@@ -8,25 +8,34 @@ body {
 }
 
 header {
+    width: 100%;
     height: 50px;
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.content-header{
+    
+    max-width: 1000px;
+    
+}
+
+.headerBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 #logo {
     width: 250px;
-    
-    position: absolute;
-    left: 250px;
-    top: -100px;
     color: #327AD9;
 }
 
 #login {
-    position: absolute;
-    right: 540px;
-    top: 7px;
+    
     color: #ffffff;
     font-weight: 400;
 
@@ -34,48 +43,29 @@ header {
     width: 100px;
     background-color: #327AD9;
     border-radius: 5px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;    
+    
 }
 
 #register {
-    position: absolute;
-    right: 440px;
-    top: 11px;
+    
     color: #327AD9;
     font-weight: 400;
     
 }
 
-#cart {
-    position: absolute;
-    right: 320px;
-    top: 8px;
-    
-}
 
-.imgBag {
+.imgCart {
     width: 35px;
 }
 
 .bola {
     border-radius: 50%;
-    display: inline-block;
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     color: #fff;
     background-color: #327AD9;
-
-    position: absolute;
-    right: 300px;
-    top: 4px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+    display: inline-block;
+    font-size: 15px;
 }
 
 a {
